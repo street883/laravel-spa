@@ -48,7 +48,6 @@ export default {
     AppNav,
     VerifyNotice,
     AppFooter,
-    OctoCat,
   },
   computed: {
     ...mapGetters({
