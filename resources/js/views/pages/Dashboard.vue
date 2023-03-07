@@ -129,7 +129,6 @@ export default {
   components: {
     RolesBadges,
     PowerIcon,
-    GHButtons,
   },
   data() {
     return {};
