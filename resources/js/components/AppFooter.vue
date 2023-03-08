@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      company: 'Jeremy Edgar Kenedy',
+      company: 'Tow America',
     };
   },
   computed: {
