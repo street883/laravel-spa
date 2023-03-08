@@ -12,7 +12,7 @@
       Thank you for being a member!
     </h4>
     <p class="mb-2 text-2xl text-slate-500 dark:text-slate-300">
-      Laravel / Vite / Vue3 / TailwindCSS
+      Your #1 Certification Manager
     </p>
     <div v-if="enableGhButtons" class="mb-3 p-5">
       <GHButtons
@@ -48,8 +48,6 @@ import VultrReferral from '@components/VultrReferral.vue';
 export default {
   name: 'Home',
   components: {
-    ChatBubbleLeftEllipsisIcon,
-    GHButtons,
     BmcButtons,
     VultrReferral,
     PatreonButton,
