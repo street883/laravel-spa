@@ -21,6 +21,9 @@
               <RolesBadges :roles="roles" />
             </div>
       
+   
+      
+      
             <div v-if="socialLoginsEnabled">
               <router-link
                 v-tippy="'Go to application service providers'"
@@ -98,6 +101,31 @@
             </div>
           </div>
         </div>
+
+<div class="my-5 flex justify-center">
+  <div class="flex-1">
+    <div class="w-auto rounded border dark:border-gray-600">
+      <div class="border-b p-4 font-semibold dark:border-gray-600 dark:text-gray-200">
+      Development Board
+      </div>
+      <div class="rounded bg-white p-4 dark:bg-slate-800 dark:text-gray-300">
+      </div>
+      </div>
+      </div>
+      </div>
+      
+
+<div class="my-5 flex justify-center">
+  <div class="flex-1">
+    <div class="w-auto rounded border dark:border-gray-600">
+      <div class="border-b p-4 font-semibold dark:border-gray-600 dark:text-gray-200">
+      Certifications Owned
+      </div>
+      <div class="rounded bg-white p-4 dark:bg-slate-800 dark:text-gray-300">
+      </div>
+      </div>
+      </div>
+      </div>
 
         <div class="mt-3 mb-5 p-5 text-center">
           <GHButtons
